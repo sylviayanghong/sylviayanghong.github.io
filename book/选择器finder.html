@@ -128,7 +128,111 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4" data-path="notes.html">
+        <li class="chapter " data-level="1.4" data-path="box.html">
+            
+                <a href="box.html">
+            
+                    
+                    盒子模型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="css3.html">
+            
+                <a href="css3.html">
+            
+                    
+                    css3基本操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="marigin-float.html">
+            
+                <a href="marigin-float.html">
+            
+                    
+                    浮动+布局
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="ps.html">
+            
+                <a href="ps.html">
+            
+                    
+                    ps
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="donghua.html">
+            
+                <a href="donghua.html">
+            
+                    
+                    动画
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="form-befor.html">
+            
+                <a href="form-befor.html">
+            
+                    
+                    表单+before
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="position.html">
+            
+                <a href="position.html">
+            
+                    
+                    定位
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="github.html">
+            
+                <a href="github.html">
+            
+                    
+                    github
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="notes.html">
             
                 <a href="notes.html">
             
@@ -186,7 +290,73 @@
     
                                 <section class="normal markdown-section">
                                 
-                                
+                                <h5 id="&#x9009;&#x62E9;&#x5668;">&#x9009;&#x62E9;&#x5668;</h5>
+<p>1.&#x5143;&#x7D20;&#x9009;&#x62E9;&#x5668;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>&#x5143;&#x7D20;<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>&gt;
+<span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+    <span class="hljs-selector-tag">h1</span>{
+    <span class="hljs-comment">/*&#x5143;&#x7D20;&#x5C5E;&#x6027;*/</span>
+}
+</span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+</code></pre>
+<p>2.id&#x9009;&#x62E9;&#x5668;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">h3</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;hello&quot;</span>&gt;</span>id<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+   <span class="hljs-selector-id">#hello</span>{
+    <span class="hljs-comment">/*&#x5143;&#x7D20;&#x5C5E;&#x6027;*/</span>
+} 
+</span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+</code></pre>
+<p>3.&#x7C7B;&#x522B;&#xFF08;class&#xFF09;&#x9009;&#x62E9;&#x5668;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">h3</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;world&quot;</span>&gt;</span>id<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+   <span class="hljs-selector-class">.world</span>{
+    <span class="hljs-comment">/*&#x5143;&#x7D20;&#x5C5E;&#x6027;*/</span>
+} 
+</span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+</code></pre>
+<p>4.&#x5C42;&#x7EA7;&#x9009;&#x62E9;&#x5668;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;fruit&quot;</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+   <span class="hljs-selector-class">.fruit</span> <span class="hljs-selector-tag">li</span>{
+    <span class="hljs-comment">/*&#x5143;&#x7D20;&#x5C5E;&#x6027;*/</span>
+} 
+</span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+</code></pre>
+<p>5.&#x4F2A;&#x7C7B;&#x9009;&#x62E9;&#x5668;&#xFF08;&#x7528;&#x6765;&#x6307;&#x5B9A;&#x4E00;&#x4E9B;&#x52A8;&#x4F5C;&#xFF09;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;fruit&quot;</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+   <span class="hljs-selector-class">.fruit</span> <span class="hljs-selector-tag">li</span>{
+        <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#fff</span>;
+} 
+   <span class="hljs-selector-class">.fruit</span> <span class="hljs-selector-tag">li</span><span class="hljs-selector-pseudo">:hover</span>{
+     <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#f00</span>;
+   } 
+</span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+</code></pre>
+<p>6.*&#x9009;&#x62E9;&#x5668;&#x53EF;&#x4EE5;&#x9009;&#x5230;&#x6240;&#x6709;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+    *{
+        <span class="hljs-attribute">margin</span>: <span class="hljs-number">0px</span>;
+        <span class="hljs-attribute">padding</span>: <span class="hljs-number">0px</span>;
+    } 
+</span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+</code></pre>
+
                                 
                                 </section>
                             
@@ -229,7 +399,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"选择器","level":"1.2","depth":1,"next":{"title":"基本操作","level":"1.3","depth":1,"path":"oneday.md","ref":"oneday.md","articles":[]},"previous":{"title":"前言","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"neutral"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"选择器finder.md","mtime":"2017-03-17T03:05:59.450Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-03-17T11:28:24.774Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"选择器","level":"1.2","depth":1,"next":{"title":"基本操作","level":"1.3","depth":1,"path":"oneday.md","ref":"oneday.md","articles":[]},"previous":{"title":"前言","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"选择器finder.md","mtime":"2017-03-18T13:50:43.170Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-03-18T13:54:07.241Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
