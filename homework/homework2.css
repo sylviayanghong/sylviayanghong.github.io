@@ -35,7 +35,7 @@
 		margin-left: 14px;
 	}
 	.header .headt li span{
-		margin-left: 10px;
+		margin-left: 12px;
 	}
 	.header .headt .one{
 		margin-left: 0px;
@@ -123,8 +123,9 @@
 		letter-spacing: 1px;
 		color: #439ea3;
 	}
-	.banner .bg .nav .box1 img{
+	.banner .bg .nav .box1 hr{
 		margin: 20px 0 0 16px;
+		border: 1px dashed #cbcbcb;
 	}
 	.banner .bg .nav .box1 p{
 		margin: 9px 0 0 13px;
@@ -151,7 +152,8 @@
 		letter-spacing: 1px;
 		color: #439ea3;
 	}
-	.banner .bg .nav .box2 img{
+	.banner .bg .nav .box2 hr{
+		border: 1px dashed #cbcbcb;
 		margin: 20px 0 0 16px;
 	}
 	.banner .bg .nav .box2 p{
@@ -179,7 +181,8 @@
 		letter-spacing: 1px;
 		color: #439ea3;
 	}
-	.banner .bg .nav .box3 img{
+	.banner .bg .nav .box3 hr{
+		border: 1px dashed #cbcbcb;
 		margin: 20px 0 0 16px;
 	}
 	.banner .bg .nav .box3 p{
@@ -540,6 +543,7 @@
 		float: left;
 		width: 72px;
 		margin-right: 8px;
+		font-size: 12px;
 		color: #fff;
 	}
 	.footer .f-t .nav #one{
