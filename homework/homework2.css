@@ -125,6 +125,7 @@
 	}
 	.banner .bg .nav .box1 hr{
 		margin: 20px 0 0 16px;
+		font-size: 12px;
 		border: 1px dashed #cbcbcb;
 	}
 	.banner .bg .nav .box1 p{
@@ -154,6 +155,7 @@
 	}
 	.banner .bg .nav .box2 hr{
 		border: 1px dashed #cbcbcb;
+		font-size: 12px;
 		margin: 20px 0 0 16px;
 	}
 	.banner .bg .nav .box2 p{
@@ -183,6 +185,7 @@
 	}
 	.banner .bg .nav .box3 hr{
 		border: 1px dashed #cbcbcb;
+		font-size: 12px;
 		margin: 20px 0 0 16px;
 	}
 	.banner .bg .nav .box3 p{
